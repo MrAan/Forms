@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            td {
+                text-align: left;
+            }
+        </style>
+    </header>
+    <body>
+        <center>
+        <h1>Job Application Form</h1>
+        <form method="GET">
+            <table border="1">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" placeholder="Position Applying For" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h3>PERSONAL DATA</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" placeholder="Name (Last, Middle, First)" required
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <textarea name="form" id="Address" cols="30" rows="10" placeholder="Mailing Address" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="PhoneNo" id="HomeNo" placeholder="Home Tel. No" required>
+                    </td>
+                    <td>
+                        <input type="text" name="PhoneNo" id="BusinessNo" placeholder="Business Tel. No" required>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="PhoneNo" id="CellphoneNo" placeholder="Cellphone No" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date You Can Start Work <br>
+                        <input type="date" name="Date" required>
+                    </td>
+                    <td>
+                        <Select name="Salary" required>
+                            <option value="">-=Salary You Desire=-</option>
+                            <option value="S1">1500-2000</option>
+                            <option value="S2">2000-3500</option>
+                            <option value="S3">3500-5000</option>
+                            <option value="S4">5000-7500</option>
+                        </Select>
+                    </td>
+                    <td colspan="2">
+                        Do you have a High School Diploma or GED? <br>
+                        <input type="radio" name="Dip" value="Yes"> Yes 
+                        <input type="radio" name="Dip" value="No"> No 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h3>POSITION INFORMATION</h3> Check all you are willing to work
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Full Time : <input type="checkbox" name="hours" value="Yes"> 
+                        Part Time : <input type="checkbox" name="hours" value="Yes"> 
+                    </td>
+                    <td>
+                        Days : <input type="checkbox" name="Days" value="Yes"> 
+                        Evenings : <input type="checkbox" name="Evenings" value="Yes"> 
+                    </td>
+                    <td colspan="2">
+                        Regular : <input type="checkbox" name="Regular" value="Yes"> 
+                        Temporary : <input type="checkbox" name="Temporary" value="Yes"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Are you authorize to work in US on unrestricted basis? 
+                        <input type="checkbox" name="restriction" id="R1"> Yes
+                        <input type="checkbox" name="restriction" id="R2"> No
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Have you ever been convicted to a felony? (Conviction not necessarily disqualify applicant) 
+                        <input type="checkbox" name="convicted" id="C1"> Yes
+                        <input type="checkbox" name="convicted" id="C2"> No
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Have you told the essential function of the job or viewed a copy of the job description? 
+                        <input type="checkbox" name="view" id="V1"> Yes
+                        <input type="checkbox" name="view" id="V2"> No <br>
+                        Can you perform these essential functions of the job with or without reasonable accomodation? 
+                        <input type="checkbox" name="perform" id="P1"> Yes
+                        <input type="checkbox" name="perform" id="P2"> No 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h3>QUALIFICATION</h3> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>School Name</td>
+                    <td>Degree</td>
+                    <td colspan="2">Address</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="schoolname" placeholder="SchoolName" required></td>
+                    <td><input type="text" name="scDegree" placeholder="Degree" required></td>
+                    <td colspan="2"><input type="text" name="scAddress" placeholder="Address" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="schoolname" placeholder="SchoolName"></td>
+                    <td><input type="text" name="scDegree" placeholder="Degree"></td>
+                    <td colspan="2"><input type="text" name="scAddress" placeholder="Address"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h3>SPECIAL SKILLS</h3> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        List any special skills that you feel would help you in the position that you applying for. <br>
+                    <textarea name="skills" cols="30" rows="10" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h3>REFERENCES</h3> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    <td>Relationship</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="refName" placeholder="Name" required></td>
+                    <td><input type="text" name="refEmail" placeholder="Email" required></td>
+                    <td><input type="text" name="refPhone" placeholder="Phone" required></td>
+                    <td><input type="text" name="refRelationship" placeholder="Relationship" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="refName" placeholder="Name"></td>
+                    <td><input type="text" name="refEmail" placeholder="Email"></td>
+                    <td><input type="text" name="refPhone" placeholder="Phone"></td>
+                    <td><input type="text" name="refRelationship" placeholder="Relationship"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </center>
+    </body>
+</html>

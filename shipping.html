@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </header>
+    <body>
+        <center>
+            <form>
+                <table border="1">
+                    <tr>
+                        <td colspan="2">
+                            <h1>Shipping Form</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <strong>
+                                SHIP TO : 
+                            </strong> <br>
+                            Name : <input type="text" name="name" required> <br>
+                            Address : <br>
+                            <textarea name="address" cols="30" rows="10" required></textarea> <br>
+                            Poscode : <input type="text" name="poscode" required> <br>
+                            Phone No : <input type="text" name="phoneNo" required> <br>
+                            Email : <input type="email" name="email" placeholder="if necessary">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <strong>
+                                SHIP FROM :
+                            </strong> <br>
+                            Name : <input type="text" name="name2" required> <br>
+                            Address : <br>
+                            <textarea name="address2" cols="30" rows="10" required></textarea> <br>
+                            Poscode : <input type="text" name="poscode2" required> <br>
+                            Phone No : <input type="text" name="phoneNo2" required> <br>
+                            Email : <input type="email" name="email2" placeholder="if necessary">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>
+                                ITEM :
+                            </strong> <br>
+                            Book's Title : 
+                        </td>
+                        <td>
+                            <br>
+                            Amounts
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="books" id="B1">Art of War - Sun Tzu <br>
+                            <input type="checkbox" name="books" id="B2">Adulting - K. W. Brown <br>
+                            <input type="checkbox" name="books" id="B3">How to Win Friends & Influence People - Brian Tracy <br>
+                            <input type="checkbox" name="books" id="B4">SIFUFBADS COPYWRITING - Jamal Sifubads
+                        </td>
+                        <td>
+                            <input type="number" name="amount" id="AB1"> <br>
+                            <input type="number" name="amount" id="AB2"> <br>
+                            <input type="number" name="amount" id="AB3"> <br>
+                            <input type="number" name="amount" id="AB4"> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <input type="submit" value="Submit">
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
